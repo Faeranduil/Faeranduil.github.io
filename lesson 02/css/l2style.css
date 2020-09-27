@@ -6,6 +6,13 @@ body {
     max-width: 800px;
     margin:0 auto;
 }
+header{
+    background-color: #1e1964;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+}
 main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
