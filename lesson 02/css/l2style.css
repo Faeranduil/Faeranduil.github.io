@@ -24,17 +24,14 @@ main{
 #vh{
     grid-column: 1/2;
     grid-row: 2/3;
-    padding-bottom: 800px;
 }
 #rot {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding-bottom: 900px;
 }
 #wscd {
     grid-column: 3/4;
     grid-row: 2/3;
-    padding-bottom: 900px;
 }
 .scrnsht {
     vertical-align: center;
