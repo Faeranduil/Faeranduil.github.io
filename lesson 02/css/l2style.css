@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: #EFED;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #index-main {
@@ -7,7 +7,7 @@ body {
     margin:0 auto;
 }
 header{
-    background-color: #1e1964;
+    background-color: burlywood;
     color: white;
     padding: 8px;
     border-radius: 15px;
@@ -24,7 +24,7 @@ main{
 #vh{
     grid-column: 1/2;
     grid-row: 2/3;
-    margin-top: -185px;
+    margin-top: -175px;
 }
 #rot {
     grid-column: 2/3;
