@@ -24,23 +24,17 @@ main{
 #vh{
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: white;
-    margin:30px;
-    padding-bottom: 450px;
+    padding-bottom: 800px;
 }
 #rot {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: white;
-    margin:20px;
-    position: relative;
-    padding-bottom: 500px;
+    padding-bottom: 900px;
 }
 #wscd {
     grid-column: 3/4;
     grid-row: 2/3;
-    background-color: white;
-    margin:30px;
+    padding-bottom: 900px;
 }
 .scrnsht {
     vertical-align: center;
