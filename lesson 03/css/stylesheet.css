@@ -1,1 +1,25 @@
 .icon {max-width: 25%;}
+main {max-width: 600px;}
+
+.background {background-color: #122B1D;
+            color: white;
+        height: 50px;
+        font-size: 25px;
+        text-align: center;
+    padding-top: 25px;}
+.normal {color: black;
+    height: 50px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 25px;}
+.low {background-color: #0F084B;
+    color: white;
+    height: 50px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 25px;}
+.high {background-color: #CC2936;
+    height: 50px;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 25px;}
