@@ -1,5 +1,8 @@
-.icon {max-width: 25%;}
+.icon {max-width: 50%;}
 main {max-width: 600px;}
+#index-main {
+    font-size: 20px;
+}
 
 .background {background-color: #122B1D;
             color: white;
