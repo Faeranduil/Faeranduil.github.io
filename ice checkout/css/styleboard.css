@@ -1,0 +1,23 @@
+
+body {
+   margin: 0 auto;
+   background-color: lightgray;
+}
+
+
+@media screen and (max-width:375px){
+   main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+   }
+}
+
+@media screen and (min-width:375px) and (max-width:768px){
+   main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+   }
+
+}
