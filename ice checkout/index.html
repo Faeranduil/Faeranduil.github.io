@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <link href="styleboard.css" rel="stylesheet">
+        <link href="css/checkout.css" rel="stylesheet">
         <script src="scripts.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
@@ -11,40 +11,42 @@
     
     <body>
         <header> 
-            <img src="images\delta.jpg" alt="Delta Logo">
-            <p> Mobile Boarding Pass</p>
-            <p>Gabby Salamone</p>
+            <img src="images\iceCheckout.jpg" alt="Checkout Progress Bar">
         </header>
         <main>
-            <div class="trv">
-                <p> Departs 12:45 PM </p>
-                <h1> DEN </h1>
-                <p> Denver </p>
-                <img src="images\airplane.jpg" alt="Airplane">
-                <p> Arrives 5:30 PM </p>
-                <h1> BOS </h1>
-                <p> Boston </p>
-            </div>
-            <div class="dfg">
-                <p><b>Date</b></p>
-                <h2>12/21/15</h2>
-                <p><b>Flight</b></p>
-                <h2>A2341</h2>
-                <p><b>Boarding Time</b></p>
-                <h2>11:45 AM</h2>
-            </div>
-            <div class="sbb">
-                <p><b>Seat</b></p>
-                <h2>B10</h2>
-                <p><b>Boarding Zone</b></p>
-                <h2>1</h2>
-                <p><b>Boarding Time</b></p>
-                <h2>11:45 AM</h2>
-            </div>
+            <section class="order">
+                <h1> Order Summary </h1>
+                <p>
+                    ORDER SUBTOTAL        <span class="price">$ 46.96</span><br>
+                    SHIPPING & HANDLING   <span class="price">$ 6.00</span><br>
+                    SALES                 <span class="price">$ 8.05</span><br>
+                </p>
+                <p class="bord">
+                    PAYMENT DUE       <span class="price" id="boldblue">$ 61.00</span>
+                </p>
+                <a id="return" href="#">Return to cart</a>
+                
+            </section>
+            <section class="pmt">
+                <h1>Payment details</h1>
+                    <h4>CARDHOLDER NAME<h4>
+                <p></p>Alexis Johnson</p>
+                <h4>CARDHOLDER NAME<h4>
+                    <p>Alexis Johnson</p>
+                    <h4>CARDHOLDER NAME<h4>
+                        <p>Alexis Johnson</p>
+                <p>Card Number</p>
+                <p>1234 5678 9012 3456</p>
+                <p>EXPIRATION DATE</p>
+                <p>MONTH</p>
+                <p>06</p>
+                <p>YEAR</p>
+                <p>18</p>
+                <p>CVV <i class="fas fa-question-circle"></i>?</p>
+
+                
+            </section>
         </main>
-        <footer>
-            <img src="images/barcode.jpg" alt="barcode">
-            <p>Thank you for flying with Delta</p>
-        </footer>
     </body>
 </html>
+                
