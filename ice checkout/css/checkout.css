@@ -25,10 +25,10 @@ main {
 p{
    font-size:12px;
    line-height:2rem;
-   color: grey;
+   color: grey; 
 }
 .bord {
-   border-bottom: 1px solid grey;
+   border-top: 1px solid grey;
 }
 .pay{
    border
@@ -61,6 +61,10 @@ span{
    main {
       grid-template-columns: 1fr 1fr;
    }
+
+
+
+
 
 
 
