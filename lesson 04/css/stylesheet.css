@@ -4,9 +4,15 @@
         margin-top: 10px;
         padding-bottom: 20px;
     }
+    .hero {
+        display: grid;
+        grid-
+    }
+
 }
 /* large screen settings */
 @media screen and (min-width:420px){
+    
     ul {
         list-style-type: none;
         margin: 0;
