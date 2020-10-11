@@ -1,22 +1,54 @@
 /* mobile screen settings */
 @media screen and (max-width:420px){
-    .main-section{
+    #index.main{
+        display: grid;
+        grid-template-columns: 1fr;
         margin-top: 10px;
         padding-bottom: 20px;
     }
-    .banner {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .hero {
-        grid-row:1/-1;
-    }
-
+    .navigationBar {
+        overflow: hidden;
+        background-color: #122B1D;
+        position: relative;
+      }
+      
+      .navigationBar {
+        display: none;
+      }
+      
+      .navigationBar a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .navigationBar a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .navigationBar a:hover {
+        background-color: #0F084B;
+        color: white;
+      }
+      
+      .active {
+        background-color: black;
+        color: white;
+      }
+    
+   
 }
+
 /* large screen settings */
 @media screen and (min-width:420px){
     
-    ul {
+    .navigationBar {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -24,19 +56,19 @@
         background-color: #122B1D;
       }
       
-      li {
+      .navigationBar {
         float: left;
       }
       
-      li a {
-        display: block;
+      .navigationBar a {
+        display: inline-block;
         color:white;
         text-align: center;
         padding: 16px;
         text-decoration: none;
       }
       
-      li a:hover {
+      .navigationBar a:hover {
         background-color:#0F084B;
       }
     .fcast{
