@@ -53,6 +53,7 @@ body {
     
     .hero img{
         width:100%;
+        height: 150px;
 
     }
     .navigationBar {
@@ -80,6 +81,7 @@ body {
         grid-template-columns: repeat(5, 135px);
         grid-gap: 10px;
         text-align:center;
+        align-content: space-around;
     }
     .day1{
         grid-column:1/2;
