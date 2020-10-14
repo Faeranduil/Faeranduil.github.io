@@ -4,109 +4,131 @@ body {
 }
 @media screen and (max-width:420px){
     #index-main{
-        display: grid;
-        grid-template-columns: 1fr;
         margin-top: 10px;
         padding-bottom: 20px;
-    }
-    .navigationBar {
-        overflow: hidden;
-        background-color: #122B1D;
-        position: relative;
-      }
-      
-      .navigationBar a {
-        color: white;
-        padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color:#122B1D;
+    }
+    
+    .navigationBar {
+        list-style: none;
+        padding:0;
+    }
+    
+    .navigationBar li {
+        display:none;
+    }
+    
+    .navigationBar li:first-child {
         display: block;
-      }
-      
-      .navigationBar a.icon {
-        background: black;
+    }
+
+   .navigationBar li {
+    display: none;
+    }
+    
+    .navigationBar a {
         display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      
-      .navigationBar a:hover {
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }  
+
+    .navigationBar a:hover {
         background-color: #0F084B;
         color: white;
-      }
-      .fcast {
-          text-align:center;
-      }
-      .day1{
+    }
+       
+    .responsive li {
+        display: block;
+    }      
+      
+    .fcast {
+        text-align:center;
+    }
+      
+    .day1 {
         grid-column:1/span 2;
         margin-bottom:2px;
         border: solid 2px black;
     }
    
-    .day2{
+    .day2 {
         grid-column:3/span 2;
         margin-bottom:2px;
         border: solid 2px black;
     }
-    .day3{
+
+    .day3 {
         grid-column:5/span 2;
         margin-bottom:2px;
         border: solid 2px black;
     }
-    .day4{
+
+    .day4 {
         grid-column:2/span 2;
         margin-bottom:2px;
         border: solid 2px black;
     }
-    .day5{
+
+    .day5 {
         grid-column:4/span 2;
         margin-bottom:2px;
         border: solid 2px black;
     }
-      
-      .active {
-        background-color: black;
-        color: white;
-      }
-    
+
+    .w {
+        color: red;
+    }
+
+    .t { 
+        color:purple;
+    }
+
+    .r { 
+        color:blue;
+    }
    
 }
 
-/* large screen settings */
+/* medium screen settings */
 @media screen and (min-width:420px){
     
-    .hero img{
+    .hero img {
+        display: block;
         width:100%;
-        height: 150px;
-
+        height: auto;
     }
+    
     .navigationBar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #122B1D;
-        text-align: center;
-        width:100%;
-      }
+        display: flex;
+    }
+
+    .navigationBar li {
+        display: block;
+        flex: 1 1 auto;
+    }
       
-      .navigationBar a {
-        display: inline-block;
+    .navigationBar a {
         color:white;
         text-align: center;
-        padding: 16px;
-        text-decoration: none;
-      }
-      
-      .navigationBar a:hover {
-        background-color:#0F084B;
-      }
+    }
+
+    .navigationBar li:first-child {
+        display: none;
+    }
     .fcast{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-gap: 10px;
         text-align:center;
-        align-content: space-around;
     }
     .day1{
         grid-column:1/span 2;
@@ -134,36 +156,25 @@ body {
         margin-bottom:2px;
         border: solid 2px black;
     }
-    .navigationBar a:last-child{
-        display: none;
+    .w {
+        color: red;
     }
-    @media screen and (min-width:720px){
+    .t { 
+        color:purple;
+    }
+    .r { 
+        color:blue;
+    }
+/* large screen settings */
+@media screen and (min-width:720px){
     
         .hero img{
+            display: block;
             width:100%;
-            height: 150px;
+            height: auto;
     
         }
-        .navigationBar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #122B1D;
-            text-align: center;
-            width:100%;
-          }
-          
-          .navigationBar a {
-            display: inline-block;
-            color:white;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-          }
-          
-          .navigationBar a:hover {
-            background-color:#0F084B;
-          }
+        
         .fcast{
             display: grid;
             grid-template-columns: repeat(5, 1fr);
@@ -196,5 +207,14 @@ body {
             grid-column:5/6;
             margin-bottom:2px;
             border: solid 2px black;
+        }
+        .w {
+            color: red;
+        }
+        .t { 
+            color:purple;
+        }
+        .r { 
+            color:blue;
         }
 }}

@@ -65,3 +65,12 @@ main {max-width: 600px;}
     color: white;
     font: Arial;
 }
+.w {
+    color: red;
+}
+.t { 
+    color:purple;
+}
+.r { 
+    color:blue;
+}
