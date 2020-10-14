@@ -46,3 +46,13 @@ footer p.highlight {
     font-size: .8em;
     margin-top:0;
 }
+.banner {
+    background-color: blue;
+    color:white;
+    text-align:center;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+.food {
+    font-size:35px;
+}
