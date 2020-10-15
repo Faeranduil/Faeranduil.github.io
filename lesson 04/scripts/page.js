@@ -1,4 +1,4 @@
-window.addEventListener('load',(onclick)=>{
+window.addEventListener('load',(event)=>{
   // add code here to run when page loads
   const hambutton = document.querySelector('.ham');
   const mainnav = document.querySelector('.navigationBar')
