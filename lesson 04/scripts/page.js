@@ -7,6 +7,13 @@ window.addEventListener('load',(event)=>{
   
   // To solve the mid resizing issue with responsive class on
   window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+  const cd = document.querySelector('#currentDate');
+    cd.textContent = new Date("Friday, 16, October, 2020").toDateString();
+
+    const cry = document.querySelector('#copyrightyear');
+    cry.textContent = new Date().getFullYear();
+
   
   /*** Programming Notes **************************************
     Arrow Functions - es6 syntactically compact alternative to a regular function expression
