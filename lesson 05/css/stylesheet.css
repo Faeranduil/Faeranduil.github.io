@@ -3,11 +3,11 @@ body {
     margin: 0 auto;
 }
 @media screen and (max-width:420px){
-    #index-main{
+    /*#index-main{
         margin-top: 10px;
         padding-bottom: 20px;
         text-decoration: none;
-    }
+    }*/
 
     nav {
         margin: 0 auto;
