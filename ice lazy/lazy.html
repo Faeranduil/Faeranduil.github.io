@@ -6,7 +6,6 @@
     <meta name='description' content="Gallery">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css\lazy.css">
-    <script src='script.js'></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
@@ -23,26 +22,33 @@
     This is Sequence
     <div class="sequence">
         
-        <img class='p1' src='images\c1.jpg' loading="lazy" alt="pic1">
+        <img id ='p1' class='myImg' src='images\c1.jpg' loading="lazy" alt="pic1">
     
-        <img class="p2" src="images\c2.jpg" loading="lazy" alt="pic2">
+        <img id ='p2' class='myImg' src="images\c2.jpg" loading="lazy" alt="pic2">
     
-        <img class="p3" src="images\c3.jpg" loading="lazy" alt="pic3">
+        <img id ='p3' class='myImg' src="images\c3.jpg" loading="lazy" alt="pic3">
     
-        <img class="p4" src="images\c4.jpg" loading="lazy" alt="pic4">
+        <img id ='p4' class='myImg' src="images\c4.jpg" loading="lazy" alt="pic4">
     
-        <img class="p5" src="images\c5.jpg" loading="lazy" alt="pic5">
+        <img id ='p5' class='myImg' src="images\c5.jpg" loading="lazy" alt="pic5">
     
-        <img class="p6" src="images\c6.jpg" loading="lazy" alt="pic6">
+        <img id ='p6' class='myImg' src="images\c6.jpg" loading="lazy" alt="pic6">
    
-        <img class="p7" src="images\c7.jpg" loading="lazy" alt="pic7">
+        <img id ='p7' class='myImg' src="images\c7.jpg" loading="lazy" alt="pic7">
     
-        <img class="p8" src="images\c8.jpg" loading="lazy" alt="pic8">
+        <img id ='p8' class='myImg' src="images\c8.jpg" loading="lazy" alt="pic8">
     
-        <img class="p9" src="images\c9.jpg" loading="lazy" alt="pic9">
+        <img id ='p9' class='myImg' src="images\c9.jpg" loading="lazy" alt="pic9">
     
-        <img class="p10" src="images\c10.jpg" loading="lazy" alt="pic10">
+        <img id ='p10' class='myImg' src="images\c10.jpg" loading="lazy" alt="pic10">
     </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+<!-- Trigger the Modal -->
+<script src='scripts\page.js'></script>
     
 </body>
 </html>
