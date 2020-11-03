@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+<head>
+    <title>WeaThermostat</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Preston Page'>
+    <link rel='stylesheet' href='css\stylesheet.css'>
+    <link rel='short icon' href='favicon.ico'>
+    <script src='scripts\page.js'></script>
+    <meta name='viewport' content='width=device=width, initial-scale=1.0'>
+
+</head>
+
+<body>
+    <div id='index-main'>
+        <header>
+            <div class='headstuff'>
+                <img class="limg" src='images\logoimg.jpg' alt='Cloud Blowing Leaves'>
+                <div class='wname'>
+                    <h1><span class="w">Wea</span><span class="t">The</span><span class="r">rmostat</span></h1>
+                </div>
+            </div>
+            <h4>"Bad weather sucks, but this weather blows"</h4>
+            <nav>
+                <ul class="navigationBar">
+                    <li><a class="ham" href="#" onclick="menuClick()">&#9776; Menu</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#preston">Preston</a></li>
+                    <li><a href="#sodaSprings">Soda Springs</a></li>
+                    <li><a href="#fishHaven">Fish Haven</a></li>
+                    <li><a href="#stormCenter">Storm Center</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="banner">
+                <div class="hero"><span class="heroTitle">Preston Idaho</span><img src='images\lightning3.jpg'
+                        alt='Hero Image'></div>
+            </div>
+            <div class="wsum">
+                <h2>Summary of Weather</h2>
+                <p>Sutler chantey strike colors cable lugsail stern hempen halter dead men tell no tales log. Chase
+                    carouser maroon wench tackle spirits belay transom grog. Hang the jib rum rope's end provost yard
+                    deadlights no prey, no pay interloper pink. Black jack pillage pressgang bounty log barque run a rig
+                    barkadeer belay.</p>
+                <p>Prow main sheet swing the lead bilged on her anchor Brethren of the Coast cutlass port aft Buccaneer.
+                    Shiver me timbers fire in the hole starboard bowsprit landlubber or just lubber Corsair cable
+                    skysail crow's nest. Chase pinnace belaying pin black spot red ensign heave to loot come about swing
+                    the lead. Crack Jennys tea cup chase rutters boom execution dock transom deadlights blow the man
+                    down fore. </p>
+            </div>
+            <div class="summary">
+                <h3 class="fivehead">Five Day Forecast</h3>
+                <div class="wsum">
+                    <h2>Aritcle Summary</h2>
+                    <p>Capstan handsomely bilge rat bilge measured fer yer chains fire ship. Brig clipper doubloon
+                        lugger parrel gaff. To go on account rum Jack Tar yardarm Sail ho landlubber or just lubber.</p>
+                    <p>Jack Ketch knave overhaul chase guns sutler wherry. Chase guns salmagundi starboard hands Jack
+                        Tar quarter. Gabion heave to hornswaggle bounty cutlass carouser. </p>
+                </div>
+                <div class="fcast">
+                    <picture class="day1">
+                        <img srcset="images\monday.jpg 420w, images\monday-75w.jpg 600w"
+                            sizes="(max-width: 600px) 420px, 600px" src="images\monday-75w.jpg" alt="Monday Forecast">
+                    </picture>
+                    <picture class="day2">
+                        <img srcset="images\tuesday.jpg 420w, images\tuesday-75w.jpg 600w"
+                            sizes="(max-width: 600px) 420px, 600px" src="images\tuesday-75w.jpg" alt="Tuesday Forecast">
+                    </picture>
+                    <picture class="day3">
+                        <img srcset='images\wednesday.jpg 420w, images\wednesday-75w.jpg 600w'
+                            sizes="(max-width: 600px) 420px, 600px" src="images\wednesday-75w.jpg"
+                            alt='Wednesday Forecast'>
+                    </picture>
+                    <picture class="day4">
+                        <img srcset='images\thursday.jpg 420w, images\thursday-75w.jpg 600w'
+                            sizes="(max-width:600px) 420px, 600px" src="images\thursday-75w.jpg"
+                            alt='Thursday Forecast'>
+                    </picture>
+                    <picture class="day5">
+                        <img srcset='images\friday.jpg 420w, images\friday-75w.jpg 600w'
+                            sizes="(max-width:600px) 420px, 600px" src="images\friday-75w.jpg" alt='Friday Forecast'>
+                    </picture>
+                </div>
+
+        </main>
+        <footer>
+            <p class='legal'>&copy; <span id='copyrightyear'></span> | Jackson Rittenhouse | Idaho | <a
+                    href='https://www.byui.edu/online'>BYUI Online Learning</a></p>
+            <p class='highlight'>Current Date: <span id='currentDate'></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
