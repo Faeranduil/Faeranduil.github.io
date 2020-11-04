@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery</title>
+    <meta charset="utf-8">
+    <meta name='description' content="Gallery-7">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css\stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+</head>
+
+<body>
+    <h1>Weather Gallery</h1>
+    <div class='container'>
+        <div class='f1'><img class='myImg fall' src="images\autumn-200w.jpg" loading='lazy' alt="Autumn Sky"
+            style="width:100%;max-width:300px" srcset="images\autumn-200w.jpg 200w, images\autumn-400w.jpg 400w">
+            <figcaption>Autumn Sky</figcaption>
+            </div>
+            <div class='f2'>
+        <img class='myImg clear' src="images\clearSky-200w.jpg" loading='lazy' alt="Clear Sky"
+            style="width:100%;max-width:300px" srcset="images\clearSky-200w.jpg 200w, images\clearSky-400w.jpg 400w">
+        <figcaption>Clear Sky</figcaption>
+        </div>
+        <div class='f3'>
+        <img class='myImg dark' src="images\dcloud-200w.jpg" loading='lazy' alt="Dark Clouds"
+            style="width:100%;max-width:300px" srcset="images\dcloud-200w.jpg 200w, images\dcloud-400w.jpg 400w">
+        <figcaption>Dark Clouds</figcaption>
+        </div>
+        <div class='f4'>
+        <img class='myImg ftundra' src="images\ftundra-200w.jpg" loading='lazy' alt="Frozen Tundra"
+            style="width:100%;max-width:300px" srcset="images\ftundra-200w.jpg 200w, images\ftundra-400w.jpg 400w">
+        <figcaption>Frozen Tundra</figcaption>
+        </div>
+        <div class='f5'>
+        <img class='myImg ice' src="images\ice-200w.jpg" loading='lazy' alt="When H-E-double-hockey-sticks freezes over"
+            style="width:100%;max-width:300px" srcset="images\ice-200w.jpg 200w, images\ice-400w.jpg 400w">
+        <figcaption>When H-E-double-hockey-sticks freezes over</figcaption>
+        </div>
+        <div class='f6'>
+        <img class='myImg lstrike' src="images\lstrike-200w.jpg" loading='lazy' alt="Never in the same place twice"
+            style="width:100%;max-width:300px" srcset="images\lstrike-200w.jpg 200w, images\lstrike-400w.jpg 400w">
+        <figcaption>Never in the same place twice</figcaption>
+        </div>
+        <div class='f7'>
+        <img class='myImg nlights' src="images\nlights-200w.jpg" loading='lazy' alt="The Northern Lights"
+            style="width:100%;max-width:300px" srcset="images\nlights-200w.jpg 200w, images\nlights-400w.jpg 400w">
+        <figcaption>The Northern Lights</figcaption>
+        </div>
+        <div class='f8'>
+        <img class='myImg sunset' src="images\sunset-200w.jpg" loading='lazy' alt="Beautiful Sunset"
+            style="width:100%;max-width:300px" srcset="images\sunset-200w.jpg 200w, images\sunset-400w.jpg 400w">
+        <figcaption>Beautiful Sunset</figcaption>
+        </div>
+        <div class='f9'>
+        <img class='myImg nado' src="images\tornado-200w.jpg" loading='lazy' alt="It's a Twister!"
+            style="width:100%;max-width:300px" srcset="images\tornado-200w.jpg 200w, images\tornado-400w.jpg 400w">
+        <figcaption>It's a Twister!</figcaption>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <!-- Trigger the Modal -->
+    <script src='scripts\page.js'></script>
+</body>
+
+</html>
