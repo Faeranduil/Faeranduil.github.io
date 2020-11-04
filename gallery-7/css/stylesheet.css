@@ -237,8 +237,12 @@ body {
     align-items: center;
   }
 
+  .myImg {
+    margin:0 28px;
+  }
+
   figcaption {
-    margin: 0 auto;
+    margin: 0 28px;
     font-variant: small-caps;
     font-family: Arial;
     font-weight: bold;
@@ -247,8 +251,7 @@ body {
   }
 
 
-  .myImg:hover,
-  figcaption:hover {
+  figure:hover {
     box-shadow: 0 0 50px #333;
   }
   .f1 {
