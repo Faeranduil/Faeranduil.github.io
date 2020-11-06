@@ -1,5 +1,5 @@
 async function getDadJoke() {
-    const url = 'https://icanhazdadjoke.com/search?term=hipster';
+    const url = 'https://icanhazdadjoke.com';
     let h = new Headers({
         'Accept': 'application/json',
         'User-Agent': 'WDD-230 Test User Agent https://faeranduil.github.io'
@@ -21,8 +21,8 @@ function newJoke() {
     dad_id.classList.remove("small");
     const joke = getDadJoke()
         .then(function (j) {
-            dad_id.innerHTML = j['results'][1]['joke'];
-            if (j['results'][1]['joke'].length > 85) {
+            dad_id.innerHTML = j['joke'];
+            if (j['joke'].length > 85) {
                 dad_id.classList.add("small");
             }
         })
