@@ -11,7 +11,7 @@ thead, tfoot {
     text-align:center;
 }
 table, th, td {
-    border: 1px solid #e7f0ed;
+    border: 1.5px solid #e7f0ed;
     border-collapse: collapse;
     text-align:center;
 }
@@ -21,10 +21,11 @@ table {
     font-size: 14pt;
     border: 1px solid;
     padding: 10px;
+    background-color:#e7ffed;
     box-shadow: 5px 10px 10px #7fb9c2;
   }
 td {
-    background-color:#e7ffed;
+    
     height:30px;
     padding:3px 6px;
 }
@@ -37,4 +38,7 @@ th {
 }
 tfoot {
     font-size:10pt;
+}
+table tbody tr:nth-child(even) {
+    background-color: #e7ffed;
 }
