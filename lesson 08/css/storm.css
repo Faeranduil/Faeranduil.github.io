@@ -162,6 +162,32 @@ main {background-color:black;}
         border-left: green solid 6px;
     }
 
+
+    .thanks h1 {
+    font-size:2vw;
+    text-align:center;
+    border: 2rem solid white;
+    background-color:black;
+    font-weight:bolder;
+    margin:0;
+    border-bottom:0;
+    color:yellow;
+}
+.thanks h2 {
+    font-size:3vw;
+    text-align:center;
+    border: 2rem solid white;
+    background-color:black;
+    margin:0;
+    border-top:0;
+    font-style:italic;
+    color:yellow;
+}
+.emergent {
+    font-weight:bold;
+    color:red;
+}
+
 }
 
 /* medium screen settings */
