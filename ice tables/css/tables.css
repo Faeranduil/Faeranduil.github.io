@@ -1,0 +1,39 @@
+body {
+    font-family: 'lato', sans-serif;
+}
+
+#stats {
+
+    border: 1px solid #7d7d80;
+    border-collapse: collapse;
+    position:relative;
+}
+
+tr, td,
+th {
+    border: 1px solid #7d7d80;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #004d71;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #89abbc;
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+#team-standings {
+    border-collapse: collapse;
+    border: 1px solid #7d7d80;
+}
+.tri {
+    position:relative;
+    bottom:10px;
+}
