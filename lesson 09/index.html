@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <title>WeaThermostat</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Preston Page'>
+    <link rel='short icon' href='favicon.ico'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='css\index.css'>
     <script src='scripts\index.js'></script>
+    <script src='lesson 04\scripts\page.js'></script>
     <title>Document</title>
 </head>
+
 <body>
-<header>
-  </header>
-  <main>
-    <div class="cards"></div>
-  </main>
-  
+    <div id='index-main'>
+        <header>
+            <div class=headstuff>
+                <img class="limg" src='images\logoimg.jpg' alt='Cloud Blowing Leaves'>
+                <div class="wname">
+                    <h1><span class="w">Wea</span><span class="t">The</span><span class="r">rmostat</span></h1>
+                </div>
+            </div>
+            <h4>"Bad weather sucks, but this weather blows"</h4>
+            <nav>
+                <ul class="navigationBar">
+                    <li><a class="ham" href="#" onclick="menuClick()">&#9776; Menu</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#preston">Preston</a></li>
+                    <li><a href="#sodaSprings">Soda Springs</a></li>
+                    <li><a href="#fishHaven">Fish Haven</a></li>
+                    <li><a href="#stormCenter">Storm Center</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="banner">
+                <div class="hero"><img src='images\lightning3.jpg' alt='Hero Image'><span class="heroTitle">Preston
+                        Idaho</span></div>
+            </div>
+            <div class="preston">
+            </div>
+            <div class="sodaSprings">
+            </div>
+            <div class="fishHaven">
+            </div>
+    </div>
+
+    </main>
+    <footer>
+        <p class='legal'>&copy; <span id='copyrightyear'></span> | Jackson Rittenhouse | Idaho | <a
+                href='https://www.byui.edu/online'>BYUI Online Learning</a></p>
+        <p class='highlight'>Current Date: <span id='currentDate'></span></p>
+    </footer>
+    </div>
 </body>
-  <footer>
-    Your name here | BYU-Idaho | WDD 230
-  </footer>
+
 </html>

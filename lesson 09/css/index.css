@@ -1,54 +1,190 @@
-@media screen and (min-width:200px) {
-    main {
-        font-family:"Arial Narrow";
-    }
-    h1 {
-        text-align:center;
-        background-color:lightblue;
-    }
-    h2 {
-        text-align:center;
-    }
-    p {
-        text-align:center;       
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 5px;
-        background-color: lightcoral;
-        justify-items:center;
+@media screen and (max-width:420px) {
+        #index-main {
+            margin-top: 10px;
+            padding-bottom: 20px;
+            text-decoration: none;
+        }
+
+        .hero img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .headstuff {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+        }
+
+        .limg {
+            max-width: 115px;
+            grid-column: 1/2;
+        }
+
+        .wname {
+            grid-column: 2/3;
+        }
+        .w {
+            color: red;
+        }
+    
+        .t { 
+            color:purple;
+        }
+    
+        .r { 
+            color:blue;
+        }
+
+
+        nav {
+            margin: 0 auto;
+            max-width: 760px;
+            background-color: #122B1D;
+        }
+
+        .navigationBar {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navigationBar li {
+            display: none;
+        }
+
+        .navigationBar li:first-child {
+            display: block;
+        }
+
+        .navigationBar li {
+            display: none;
+        }
+
+        .navigationBar a {
+            display: block;
+            padding: 0.75rem;
+            text-align: left;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+        }
+
+        .navigationBar a:hover {
+            background-color: white;
+            color: #122B1D;
+        }
+
+        .responsive li {
+            display: block;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 
-    img {
-        width: 100%;
-        max-width: 100px;
-        align-self:center;
+    @media screen and (min-width:420px) {
+        .hero img {
+            display: block;
+            width:100%;
+            height: auto;
+        }
+    
+        .headstuff {
+            display: grid;
+            grid-template-columns: 255px 1fr;
+        }
         
+        .limg{
+            max-width: 250px;
+            grid-column:1/2;
+        }
+    
+        .wname {
+            grid-column:2/3;
+        }
+    
+        nav {
+            margin: 0 auto;
+            max-width: 760px;
+            background-color:#122B1D;
+            text-decoration: none;
+        }
+    
+        .navigationBar a {
+            display: block;
+            padding: 0.75em;
+            text-align: left;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+        }  
+        
+        .navigationBar {
+            display: flex;
+            padding:0;
+        }
+    
+        .navigationBar li {
+            display: block;
+            flex: 1 1 auto;
+        }
+          
+        .navigationBar a {
+            color:white;
+            text-align: center;
+        }
+    
+        .navigationBar li:first-child {
+            display: none;
+        }
+        .w {
+            color: red;
+        }
+    
+        .t { 
+            color:purple;
+        }
+    
+        .r { 
+            color:blue;
+        }
+       
     }
-}
 
-@media screen and (min-width:420px) {
-    .cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-    }
-
-    img {
-        width: 100%;
-        max-width: 200px;
-        align-items:center;
-    }
-}
-
-@media screen and (min-width:700px) {
-    .cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 5px;
-    }
-
-    img {
-        width: 100%;
-        max-width: 300px;
+    @media screen and (min-width:700px) {
+        .headstuff {
+            display: grid;
+            grid-template-columns: 305px 1fr;
+            position:relative;
+        }
+        
+        .limg{
+            max-width: 300px;
+            grid-column:1/2;
+        }
+    
+        .wname {
+            grid-column:2/3;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+            
+            .hero img{
+                display: block;
+                width:100%;
+                height: auto;
+            }
+       
     }
 }
