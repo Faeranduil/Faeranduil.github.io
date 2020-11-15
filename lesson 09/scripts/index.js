@@ -31,17 +31,14 @@ fetch(requestURL)
 
             image.setAttribute('src', preston.jpg);
 
-            document.querySelector('.preston').appendChild(town);
-        }; 
-    
-
+            document.querySelector('.preston').appendChild(town); 
     });
 
     fetch(requestURL)
     .then(function (response) {
         return response.json();
-
-    })
+    
+    });
     .then(function (jsonObject) {
             console.table(jsonObject);
             const towns = jsonObject['towns'];
@@ -69,16 +66,14 @@ fetch(requestURL)
             image.setAttribute('src', soda.jpg);
 
             document.querySelector('.sodaSprings').appendChild(town);
-        }; 
-    
-
-    });
+        }); 
 
     fetch(requestURL)
     .then(function (response) {
         return response.json();
+    
+    });
 
-    })
     .then(function (jsonObject) {
             console.table(jsonObject);
             const towns = jsonObject['towns'];
@@ -106,7 +101,5 @@ fetch(requestURL)
             image.setAttribute('src', fish.jpg);
 
             document.querySelector('.fishHaven').appendChild(town);
-    
-
-    });
+        });
     
