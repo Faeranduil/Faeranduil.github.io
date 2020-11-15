@@ -1,4 +1,4 @@
-const requestURL = "getPerson.json";
+const requestURL = "https://www.ahfx.com/person.php";
 let h = new Headers({
     "Accept": "application/json",
     "User-Agent": "WDD-230 Test User Agent https://flig999.github.io"
