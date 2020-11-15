@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/Faeranduil/Faeranduil.github.io/blob/master/lesson%2009/scripts/index.json';
+const requestURL = 'lesson 09\scripts\index.json';
 
 fetch(requestURL)
     .then(function (response) {
@@ -38,7 +38,7 @@ fetch(requestURL)
     .then(function (response) {
         return response.json();
     
-    });
+    })
     .then(function (jsonObject) {
             console.table(jsonObject);
             const towns = jsonObject['towns'];
@@ -72,7 +72,7 @@ fetch(requestURL)
     .then(function (response) {
         return response.json();
     
-    });
+    })
 
     .then(function (jsonObject) {
             console.table(jsonObject);
