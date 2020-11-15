@@ -1,6 +1,6 @@
-const requestURL = 'lesson 09\scripts\index.json';
+const townInfo = 'lesson 09\scripts\index.json';
 
-fetch(requestURL)
+fetch(townInfo)
     .then(function (response) {
         return response.json();
 
