@@ -9,6 +9,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
         const person = jsonObject['person'];
+            let card = document.createElement('section');
             let fullName = document.createElement('h1');
             let password = document.createElement('p');
             let emailAddy = document.createElement('p');
