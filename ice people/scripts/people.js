@@ -1,9 +1,5 @@
 const requestURL = "https://www.ahfx.com/person.php";
-let h = new Headers({
-    "Accept": "application/json",
-    "User-Agent": "WDD-230 Test User Agent https://flig999.github.io"
-    "Access-Control-Allow-Origin": "no-cors"
-});
+
 
 fetch(requestURL, {headers:h})
     .then(function (response) {
