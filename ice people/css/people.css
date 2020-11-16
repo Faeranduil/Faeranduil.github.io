@@ -1,6 +1,6 @@
 @media screen and (min-width:200px) {
-    h1 {
-        position:relative;
+    header {
+        width: 300px;
         margin:0 auto;
         text-align:center;
     }
@@ -8,16 +8,13 @@
         
         display: grid;
         grid-template-columns: 300px;
-        gap: 5px;
+        justify-content: center;
         text-align: center; 
         margin:0 auto;   
     }
     .cards section {
         background-color:rgb(53, 0, 53);
         color:white;
-    }
-    main {
-        position:absolute;
     }
 
     img {
@@ -33,7 +30,12 @@
 @media screen and (min-width:420px) {
     .cards {
         grid-template-columns: 350px;
-        gap: 5px;
+        justify-content: center;
+    }
+    header {
+        width: 350px;
+        margin:0 auto;
+        text-align:center;
     }
 
     img {
@@ -46,7 +48,13 @@
 @media screen and (min-width:700px) {
     .cards {
         grid-template-columns: 600px;
-        gap: 5px;
+        justify-content: center;
+    }
+    
+    header {
+        width: 600px;
+        margin:0 auto;
+        text-align:center;
     }
 
     img {
