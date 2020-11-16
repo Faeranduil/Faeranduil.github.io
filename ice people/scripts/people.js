@@ -1,7 +1,7 @@
 const requestURL = "https://www.ahfx.com/person.php";
 
 
-fetch(requestURL, {headers:h})
+fetch(requestURL)
     .then(function (response) {
         return response.json();
 
