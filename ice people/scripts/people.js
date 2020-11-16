@@ -18,13 +18,13 @@ fetch(requestURL)
             let ipAddy = document.createElement('p');
             let image = document.createElement('img');
 
-            fullName.textContent = person.personal.name + ' ' + person.personal.last_name;
-            password.textContent = person.online_info.password;
-            emailAddy.textContent = person.online_info.email;
-            eyeColor.textContent = person.personal.eye_color;
-            cityCountry.textContent = person.personal.city + ' ' + person.personal.country;
-            children.textContent = person.marriage.children;
-            ipAddy.textContent = person.online_info.ip_address;
+            fullName.textContent = "Full Name: " + person.personal.name + ' ' + person.personal.last_name;
+            emailAddy.textContent = "Email: " + person.online_info.email;
+            password.textContent = "Password: " + person.online_info.password;
+            eyeColor.textContent = "Eye Color: " + person.personal.eye_color;
+            cityCountry.textContent = "City/Country: " + person.personal.city + ' ' + person.personal.country;
+            children.textContent = "Children: " + person.marriage.children;
+            ipAddy.textContent = "IP Address: " + person.online_info.ip_address;
             image.setAttribute('src', 'https://thispersondoesnotexist.com/image');
 
             card.appendChild(fullName);

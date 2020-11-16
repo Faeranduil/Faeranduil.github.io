@@ -1,19 +1,38 @@
 @media screen and (min-width:200px) {
+    h1 {
+        position:relative;
+        margin:0 auto;
+        text-align:center;
+    }
     .cards {
+        
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px;
         gap: 5px;
+        text-align: center; 
+        margin:0 auto;   
+    }
+    .cards section {
+        background-color:rgb(53, 0, 53);
+        color:white;
+    }
+    main {
+        position:absolute;
     }
 
     img {
         width: 100%;
         max-width: 100px;
+        box-shadow: 5px 4px 10px;
+    }
+    p {
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width:420px) {
     .cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 350px;
         gap: 5px;
     }
 
@@ -26,7 +45,7 @@
 
 @media screen and (min-width:700px) {
     .cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 600px;
         gap: 5px;
     }
 

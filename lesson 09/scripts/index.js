@@ -1,4 +1,4 @@
-const townInfo = 'lesson 09\scripts\index.json';
+const townInfo = 'lesson 09/scripts/index.json';
 
 fetch(townInfo)
     .then(function (response) {
@@ -34,7 +34,7 @@ fetch(townInfo)
             document.querySelector('.preston').appendChild(town); 
     });
 
-    fetch(requestURL)
+    fetch(townInfo)
     .then(function (response) {
         return response.json();
     
@@ -68,7 +68,7 @@ fetch(townInfo)
             document.querySelector('.sodaSprings').appendChild(town);
         }); 
 
-    fetch(requestURL)
+    fetch(townInfo)
     .then(function (response) {
         return response.json();
     
