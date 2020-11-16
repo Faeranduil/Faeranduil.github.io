@@ -25,7 +25,7 @@ fetch(requestURL)
             cityCountry.textContent = person.personal.city + ' ' + person.personal.country;
             children.textContent = person.marriage.children;
             ipAddy.textContent = person.online_info.ip_address;
-            image.textContent = images\image.jpg;
+            image.setAttribute('src', images\image.jpg);
 
             card.appendChild(fullName);
             card.appendChild(image);
@@ -37,7 +37,7 @@ fetch(requestURL)
             card.appendChild(ipAddy);
             
 
-            image.setAttribute('src', images\image.jpg);
+            
 
             document.querySelector('div.cards').appendChild(card);
     });
