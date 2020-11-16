@@ -40,5 +40,4 @@ fetch(requestURL)
             image.setAttribute('src', images\image.jpg);
 
             document.querySelector('div.cards').appendChild(card);
-        };
     });
