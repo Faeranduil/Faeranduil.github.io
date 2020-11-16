@@ -1,6 +1,5 @@
 const requestURL = "https://www.ahfx.com/person.php";
 
-
 fetch(requestURL)
     .then(function (response) {
         return response.json();
@@ -19,7 +18,7 @@ fetch(requestURL)
             let ipAddy = document.createElement('p');
             let image = document.createElement('img');
 
-            fullName.textContent = person.personal.name + ' ' + person.personal.lastname;
+            fullName.textContent = person.personal.name + ' ' + person.personal.last_name;
             password.textContent = person.online_info.password;
             emailAddy.textContent = person.online_info.email;
             eyeColor.textContent = person.personal.eye_color;
