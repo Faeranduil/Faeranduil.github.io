@@ -27,6 +27,7 @@ fetch(requestURL)
             p2.textContent = "Year Founded: " + towns[4]["yearFounded"];
             p3.textContent = "Population: " + towns[4]["currentPopulation"];
             p4.textContent = "Annual Rainfall: " + towns[4]["averageRainfall"];
+            image.textContent = towns[4]["photo"];
 
             town.appendChild(h2);
             town.appendChild(h3);
@@ -56,11 +57,12 @@ fetch(requestURL)
             let p4 = document.createElement('p');
             let image = document.createElement('img');
 
-            h2.textContent = towns[5].name;
-            h3.textContent = towns[5].motto;
-            p2.textContent = "Year Founded: " + towns[5].yearFounded;
-            p3.textContent = "Population: " + towns[5].currentPopulation;
-            p4.textContent = "Annual Rainfall: " + towns[5].averageRainfall;
+            h2.textContent = towns[5]["name"];
+            h3.textContent = towns[5]["motto"];
+            p2.textContent = "Year Founded: " + towns[5]["yearFounded"];
+            p3.textContent = "Population: " + towns[5]["currentPopulation"];
+            p4.textContent = "Annual Rainfall: " + towns[5]["averageRainfall"];
+            image.textContent = towns[5]["photo"];
 
             town.appendChild(h2);
             town.appendChild(h3);
@@ -69,7 +71,7 @@ fetch(requestURL)
             town.appendChild(p4);
             town.appendChild(image);
 
-            image.setAttribute('src', soda.jpg);
+            image.setAttribute('src', towns[5]["photo"]);
 
             document.querySelector('.sodaSprings').appendChild(town);
         }); 
@@ -91,11 +93,12 @@ fetch(requestURL)
             let p4 = document.createElement('p');
             let image = document.createElement('img');
 
-            h2.textContent = towns[1].name;
-            h3.textContent = towns[1].motto;
-            p2.textContent = "Year Founded: " + towns[1].yearFounded;
-            p3.textContent = "Population: " + towns[1].currentPopulation;
-            p4.textContent = "Annual Rainfall: " + towns[1].averageRainfall;
+            h2.textContent = towns[1]["name"];
+            h3.textContent = towns[1]["motto"];
+            p2.textContent = "Year Founded: " + towns[1]["yearFounded"];
+            p3.textContent = "Population: " + towns[1]["currentPopulation"];
+            p4.textContent = "Annual Rainfall: " + towns[1]["averageRainfall"];
+            image.textContent = towns[1]["photo"];
 
             town.appendChild(h2);
             town.appendChild(h3);
@@ -104,7 +107,7 @@ fetch(requestURL)
             town.appendChild(p4);
             town.appendChild(image);
 
-            image.setAttribute('src', fish.jpg);
+            image.setAttribute('src', towns[1]["photo"]);
 
             document.querySelector('.fishHaven').appendChild(town);
         });
