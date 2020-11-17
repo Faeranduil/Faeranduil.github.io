@@ -11,8 +11,8 @@ fetch(requestURL)
 
     })
     .then(function (jsonObject) {
-            console.log(jsonObject[0]);
-            console.table(jsonObject[0]);
+            console.log(jsonObject);
+            console.table(jsonObject);
             const towns = jsonObject['towns'];
             let town = document.createElement('section');
             let h2 = document.createElement('h2');
