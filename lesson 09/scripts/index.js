@@ -1,11 +1,11 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-let h = new Headers({
+/*let h = new Headers({
     "Accept": "application/json",
     "User-Agent": "WDD-230 Test User Agent https://flig999.github.io",
     "Access-Control-Allow-Origin": "no-cors"
-});
+});*/
 
-fetch(requestURL, {headers:h})
+fetch(requestURL)
     .then(function (response) {
         return response.json();
 
@@ -62,12 +62,12 @@ fetch(requestURL, {headers:h})
             p3.textContent = "Population: " + towns[5].currentPopulation;
             p4.textContent = "Annual Rainfall: " + towns[5].averageRainfall;
 
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p2);
-            card.appendChild(p3);
-            card.appendChild(p4);
-            card.appendChild(image);
+            town.appendChild(h2);
+            town.appendChild(h3);
+            town.appendChild(p2);
+            town.appendChild(p3);
+            town.appendChild(p4);
+            town.appendChild(image);
 
             image.setAttribute('src', soda.jpg);
 
@@ -97,12 +97,12 @@ fetch(requestURL, {headers:h})
             p3.textContent = "Population: " + towns[1].currentPopulation;
             p4.textContent = "Annual Rainfall: " + towns[1].averageRainfall;
 
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p2);
-            card.appendChild(p3);
-            card.appendChild(p4);
-            card.appendChild(image);
+            town.appendChild(h2);
+            town.appendChild(h3);
+            town.appendChild(p2);
+            town.appendChild(p3);
+            town.appendChild(p4);
+            town.appendChild(image);
 
             image.setAttribute('src', fish.jpg);
 
