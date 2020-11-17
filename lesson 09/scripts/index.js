@@ -40,7 +40,7 @@ fetch(requestURL, {headers:h})
             document.querySelector('.preston').appendChild(town); 
     });
 
-    fetch(townInfo)
+    fetch(requestURL)
     .then(function (response) {
         return response.json();
     
@@ -74,7 +74,7 @@ fetch(requestURL, {headers:h})
             document.querySelector('.sodaSprings').appendChild(town);
         }); 
 
-    fetch(townInfo)
+    fetch(requestURL)
     .then(function (response) {
         return response.json();
     
