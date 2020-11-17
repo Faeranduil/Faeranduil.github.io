@@ -22,12 +22,12 @@ fetch(townInfo)
             p3.textContent = "Population: " + towns[4].currentPopulation;
             p4.textContent = "Annual Rainfall: " + towns[4].averageRainfall;
 
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p2);
-            card.appendChild(p3);
-            card.appendChild(p4);
-            card.appendChild(image);
+            town.appendChild(h2);
+            town.appendChild(h3);
+            town.appendChild(p2);
+            town.appendChild(p3);
+            town.appendChild(p4);
+            town.appendChild(image);
 
             image.setAttribute('src', preston.jpg);
 
