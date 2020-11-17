@@ -1,6 +1,6 @@
-const townInfo = 'lesson 09/scripts/index.json';
+const requestURL = 'https://github.com/Faeranduil/Faeranduil.github.io/blob/master/lesson%2009/scripts/index.json';
 
-fetch(townInfo)
+fetch(requestURL)
     .then(function (response) {
         return response.json();
 
