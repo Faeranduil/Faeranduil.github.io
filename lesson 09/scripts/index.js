@@ -1,13 +1,18 @@
 const requestURL = 'https://github.com/Faeranduil/Faeranduil.github.io/blob/master/lesson%2009/scripts/index.json';
+let h = new Headers({
+    "Accept": "application/json",
+    "User-Agent": "WDD-230 Test User Agent https://flig999.github.io"
+    "Access-Control-Allow-Origin": "no-cors"
+});
 
-fetch(requestURL)
+fetch(requestURL, {headers:h})
     .then(function (response) {
         return response.json();
 
     })
     .then(function (jsonObject) {
-            console.log(jsonObject);
-            console.table(jsonObject);
+            console.log(jsonObject[0]);
+            console.table(jsonObject[0]);
             const towns = jsonObject['towns'];
             let town = document.createElement('section');
             let h2 = document.createElement('h2');
