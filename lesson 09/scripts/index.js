@@ -1,8 +1,8 @@
-const requestURL = 'https://github.com/Faeranduil/Faeranduil.github.io/blob/master/lesson%2009/scripts/index.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 let h = new Headers({
     "Accept": "application/json",
-    "User-Agent": "WDD-230 Test User Agent https://flig999.github.io"
-    Access-Control-Allow-Origin: "no-cors"
+    "User-Agent": "WDD-230 Test User Agent https://flig999.github.io",
+    "Access-Control-Allow-Origin": "no-cors"
 });
 
 fetch(requestURL, {headers:h})
