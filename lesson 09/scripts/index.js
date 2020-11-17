@@ -2,7 +2,7 @@ const requestURL = 'https://github.com/Faeranduil/Faeranduil.github.io/blob/mast
 let h = new Headers({
     "Accept": "application/json",
     "User-Agent": "WDD-230 Test User Agent https://flig999.github.io"
-    "Access-Control-Allow-Origin": *
+    Access-Control-Allow-Origin: *
 });
 
 fetch(requestURL, {headers:h})
