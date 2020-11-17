@@ -22,11 +22,11 @@ fetch(requestURL)
             let p4 = document.createElement('p');
             let image = document.createElement('img');
 
-            h2.textContent = towns[4].name;
-            h3.textContent = towns[4].motto;
-            p2.textContent = "Year Founded: " + towns[4].yearFounded;
-            p3.textContent = "Population: " + towns[4].currentPopulation;
-            p4.textContent = "Annual Rainfall: " + towns[4].averageRainfall;
+            h2.textContent = towns[4]["name"];
+            h3.textContent = towns[4]["motto"];
+            p2.textContent = "Year Founded: " + towns[4]["yearFounded"];
+            p3.textContent = "Population: " + towns[4]["currentPopulation"];
+            p4.textContent = "Annual Rainfall: " + towns[4]["averageRainfall"];
 
             town.appendChild(h2);
             town.appendChild(h3);
@@ -35,7 +35,7 @@ fetch(requestURL)
             town.appendChild(p4);
             town.appendChild(image);
 
-            image.setAttribute('src', preston.jpg);
+            image.setAttribute('src', towns[4]["photo"]);
 
             document.querySelector('.preston').appendChild(town); 
     });
