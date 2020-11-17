@@ -6,6 +6,7 @@ fetch(townInfo)
 
     })
     .then(function (jsonObject) {
+            console.log(jsonObject);
             console.table(jsonObject);
             const towns = jsonObject['towns'];
             let town = document.createElement('section');
