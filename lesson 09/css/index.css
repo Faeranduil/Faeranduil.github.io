@@ -90,6 +90,19 @@
         p {
             text-align: center;
         }
+        .preston {
+            background-color: #122B1D;
+        }
+        .sodaSprings {
+            background-color: #122B1D;
+        }
+        .fish {
+                background-color: #122B1D;
+        }
+        .townie {
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr;
+        }
     }
 
     @media screen and (min-width:420px) {
