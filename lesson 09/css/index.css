@@ -177,6 +177,15 @@
         background-color: #122B1D;
         color: white;
     }
+    .townie :first-child {
+        grid-template-column: 1/span 2;
+    }
+    .townie :second-child {
+        grid-template-column: 3/span 2;
+    }
+    .townie :third-child {
+        grid-template-column: 2/span 2;
+    }
 }
 
 @media screen and (min-width:700px) {
