@@ -24,12 +24,12 @@ fetch(requestURL)
                 let p4 = document.createElement('p');
                 let image = document.createElement('img');
 
-                h2.textContent = towns[i]["name"];
-                h3.textContent = towns[i]["motto"];
-                p2.textContent = "Year Founded: " + towns[i]["yearFounded"];
-                p3.textContent = "Population: " + towns[i]["currentPopulation"];
-                p4.textContent = "Annual Rainfall: " + towns[i]["averageRainfall"];
-                image.textContent = towns[i]["photo"];
+                h2.textContent = towns[i].name;
+                h3.textContent = towns[i].motto;
+                p2.textContent = "Year Founded: " + towns[i].yearFounded;
+                p3.textContent = "Population: " + towns[i].currentPopulation;
+                p4.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+                image.textContent = towns[i].photo;
 
                 town.appendChild(h2);
                 town.appendChild(h3);
@@ -38,7 +38,7 @@ fetch(requestURL)
                 town.appendChild(p4);
                 town.appendChild(image);
 
-                image.setAttribute('src', towns[i]["photo"]);
+                image.setAttribute('src', towns[i].photo);
                 /*town.setAttribute(towns[i].photo.substring(0,this.src.length-4);*/
 
 
