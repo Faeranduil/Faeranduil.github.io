@@ -100,25 +100,26 @@
 
     .preston {
         background-color: #122B1D;
+        color:white;
         grid-column: 1/2;
         grid-row: 1/2;
     }
 
     .sodaSprings {
         background-color: #122B1D;
+        color:white;
         grid-column: 1/2;
         grid-row: 2/3;
     }
 
     .fish {
         background-color: #122B1D;
+        color:white;
         grid-column: 1/2;
         grid-row: 3/4;
     }
 
-
 }
-
 @media screen and (min-width:420px) {
     .hero img {
         display: block;
@@ -195,21 +196,21 @@
 
     .preston {
         background-color: #122B1D;
+        color:white;
         grid-column: 1/ span 2;
     }
 
     .sodaSprings {
         background-color: #122B1D;
+        color:white;
         grid-column: 3/ span 2;
     }
 
     .fish {
         background-color: #122B1D;
+        color:white;
         grid-column: 2/ span 2;
     }
-
-
-
 }
 
 @media screen and (min-width:700px) {
@@ -245,16 +246,19 @@
 
     .preston {
         background-color: #122B1D;
+        color:white;
         grid-column: 1/2;
     }
 
     .sodaSprings {
         background-color: #122B1D;
+        color:white;
         grid-column: 2/3;
     }
 
     .fish {
         background-color: #122B1D;
+        color:white;
         grid-column: 3/4;
     }
 
