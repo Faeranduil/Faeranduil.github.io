@@ -92,6 +92,12 @@
         text-align: center;
     }
 
+    .townie {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
     .preston {
         background-color: #122B1D;
         grid-column: 1/2;
@@ -110,11 +116,7 @@
         grid-row: 3/4;
     }
 
-    .townie {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
+
 }
 
 @media screen and (min-width:420px) {
@@ -185,6 +187,12 @@
         color: blue;
     }
 
+    .townie {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
     .preston {
         background-color: #122B1D;
         grid-column: 1/ span 2;
@@ -200,11 +208,7 @@
         grid-column: 2/ span 2;
     }
 
-    .townie {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 10px;
-    }
+
 
 }
 
@@ -239,5 +243,19 @@
         gap: 10px;
     }
 
-}
+    .preston {
+        background-color: #122B1D;
+        grid-column: 1/2;
+    }
+
+    .sodaSprings {
+        background-color: #122B1D;
+        grid-column: 2/3;
+    }
+
+    .fish {
+        background-color: #122B1D;
+        grid-column: 3/4;
+    }
+
 }
