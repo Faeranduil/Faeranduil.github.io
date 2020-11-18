@@ -39,7 +39,7 @@ fetch(requestURL)
                 town.appendChild(image);
 
                 image.setAttribute('src', towns[i]["photo"]);
-                town.setAttribute(towns[i].photo.substring(0,this.src.length-4);
+                /*town.setAttribute(towns[i].photo.substring(0,this.src.length-4);*/
 
 
                 document.querySelector('.townie').appendChild(town);
