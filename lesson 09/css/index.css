@@ -174,17 +174,21 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 10px;
-        background-color: #122B1D;
-        color: white;
     }
     .townie :first-child {
         grid-column: 1/span 2;
+        background-color: #1e4730;
+        color: white;
     }
     .townie :nth-child(2) {
         grid-column: 3/span 2;
+        background-color: #122b1d;
+        color: white;
     }
     .townie :nth-child(3) {
         grid-column: 2/span 2;
+        background-color: #09160f;
+        color: white;
     }
 }
 
