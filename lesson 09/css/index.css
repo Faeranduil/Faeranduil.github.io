@@ -1,207 +1,243 @@
 @media screen and (max-width:420px) {
-        #index-main {
-            margin-top: 10px;
-            padding-bottom: 20px;
-            text-decoration: none;
-        }
-
-        .hero img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .headstuff {
-            display: grid;
-            grid-template-columns: 120px 1fr;
-        }
-
-        .limg {
-            max-width: 115px;
-            grid-column: 1/2;
-        }
-
-        .wname {
-            grid-column: 2/3;
-        }
-        .w {
-            color: red;
-        }
-    
-        .t { 
-            color:purple;
-        }
-    
-        .r { 
-            color:blue;
-        }
-
-
-        nav {
-            margin: 0 auto;
-            max-width: 760px;
-            background-color: #122B1D;
-        }
-
-        .navigationBar {
-            list-style: none;
-            padding: 0;
-        }
-
-        .navigationBar li {
-            display: none;
-        }
-
-        .navigationBar li:first-child {
-            display: block;
-        }
-
-        .navigationBar li {
-            display: none;
-        }
-
-        .navigationBar a {
-            display: block;
-            padding: 0.75rem;
-            text-align: left;
-            text-decoration: none;
-            color: white;
-            font-weight: 700;
-        }
-
-        .navigationBar a:hover {
-            background-color: white;
-            color: #122B1D;
-        }
-
-        .responsive li {
-            display: block;
-        }
-
-        h1 {
-            text-align: center;
-            background-color: lightblue;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        p {
-            text-align: center;
-        }
-        .preston {
-            background-color: #122B1D;
-            grid-column:1/2;
-        }
-        .sodaSprings {
-            background-color: #122B1D;
-            grid-column:2/3;
-        }
-        .fish {
-                background-color: #122B1D;
-                grid-column:3/4;
-        }
-        .townie {
-            display:grid;
-            grid-template-columns:1fr 1fr 1fr;
-            gap: 10px;
-        }
+    #index-main {
+        margin-top: 10px;
+        padding-bottom: 20px;
+        text-decoration: none;
     }
 
-    @media screen and (min-width:420px) {
-        .hero img {
-            display: block;
-            width:100%;
-            height: auto;
-        }
-    
-        .headstuff {
-            display: grid;
-            grid-template-columns: 255px 1fr;
-        }
-        
-        .limg{
-            max-width: 250px;
-            grid-column:1/2;
-        }
-    
-        .wname {
-            grid-column:2/3;
-        }
-    
-        nav {
-            margin: 0 auto;
-            max-width: 760px;
-            background-color:#122B1D;
-            text-decoration: none;
-        }
-    
-        .navigationBar a {
-            display: block;
-            padding: 0.75em;
-            text-align: left;
-            text-decoration: none;
-            color: white;
-            font-weight: 700;
-        }  
-        
-        .navigationBar {
-            display: flex;
-            padding:0;
-        }
-    
-        .navigationBar li {
-            display: block;
-            flex: 1 1 auto;
-        }
-          
-        .navigationBar a {
-            color:white;
-            text-align: center;
-        }
-    
-        .navigationBar li:first-child {
-            display: none;
-        }
-        .w {
-            color: red;
-        }
-    
-        .t { 
-            color:purple;
-        }
-    
-        .r { 
-            color:blue;
-        }
-       
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
-    @media screen and (min-width:700px) {
-        .headstuff {
-            display: grid;
-            grid-template-columns: 305px 1fr;
-            position:relative;
-        }
-        
-        .limg{
-            max-width: 300px;
-            grid-column:1/2;
-        }
-    
-        .wname {
-            grid-column:2/3;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-            
-            .hero img{
-                display: block;
-                width:100%;
-                height: auto;
-            }
-       
+    .headstuff {
+        display: grid;
+        grid-template-columns: 120px 1fr;
     }
+
+    .limg {
+        max-width: 115px;
+        grid-column: 1/2;
+    }
+
+    .wname {
+        grid-column: 2/3;
+    }
+
+    .w {
+        color: red;
+    }
+
+    .t {
+        color: purple;
+    }
+
+    .r {
+        color: blue;
+    }
+
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #122B1D;
+    }
+
+    .navigationBar {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigationBar li {
+        display: none;
+    }
+
+    .navigationBar li:first-child {
+        display: block;
+    }
+
+    .navigationBar li {
+        display: none;
+    }
+
+    .navigationBar a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .navigationBar a:hover {
+        background-color: white;
+        color: #122B1D;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: lightblue;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .preston {
+        background-color: #122B1D;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .sodaSprings {
+        background-color: #122B1D;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .fish {
+        background-color: #122B1D;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .townie {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:420px) {
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .headstuff {
+        display: grid;
+        grid-template-columns: 255px 1fr;
+    }
+
+    .limg {
+        max-width: 250px;
+        grid-column: 1/2;
+    }
+
+    .wname {
+        grid-column: 2/3;
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #122B1D;
+        text-decoration: none;
+    }
+
+    .navigationBar a {
+        display: block;
+        padding: 0.75em;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .navigationBar {
+        display: flex;
+        padding: 0;
+    }
+
+    .navigationBar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigationBar a {
+        color: white;
+        text-align: center;
+    }
+
+    .navigationBar li:first-child {
+        display: none;
+    }
+
+    .w {
+        color: red;
+    }
+
+    .t {
+        color: purple;
+    }
+
+    .r {
+        color: blue;
+    }
+
+    .preston {
+        background-color: #122B1D;
+        grid-column: 1/ span 2;
+    }
+
+    .sodaSprings {
+        background-color: #122B1D;
+        grid-column: 3/ span 2;
+    }
+
+    .fish {
+        background-color: #122B1D;
+        grid-column: 2/ span 2;
+    }
+
+    .townie {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (min-width:700px) {
+    .headstuff {
+        display: grid;
+        grid-template-columns: 305px 1fr;
+        position: relative;
+    }
+
+    .limg {
+        max-width: 300px;
+        grid-column: 1/2;
+    }
+
+    .wname {
+        grid-column: 2/3;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .townie {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+}
 }
