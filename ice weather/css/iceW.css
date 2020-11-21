@@ -31,10 +31,12 @@ img {
 }
 .parent{
     position:relative;
+    max-width:300px;
+    margin:0 auto;
 }
 .five {
     display:grid;
-    grid-template-columns:185px 55px 60px;
+    grid-template-columns:175px 55px 70px;
     grid-auto-rows: minmax(60px,auto);
     max-width:300px;
     margin:0 auto;   
@@ -43,7 +45,6 @@ img {
     text-shadow: 1px 0px 1px gray;
     position: absolute;
     top:260px;
-    left:37%;
 }
 .days{
     grid-column:1/2;
@@ -64,6 +65,7 @@ img {
 .icons {
     grid-column:3/4;
     max-height:28px;
+    margin-right:20px;
     
 }
 
