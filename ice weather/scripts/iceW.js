@@ -3,7 +3,6 @@ const forecastURL ='https://api.openweathermap.org/data/2.5/forecast?id=5605242&
    
     fetch(requestURL)
     .then(function (response) {
-        debugger
         return response.json();
     })
 
