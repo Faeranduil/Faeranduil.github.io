@@ -1,12 +1,12 @@
 const requestURL = 'http://api.openweathermap.org/data/2.5/weather?id=5605242&units=imperial&appid=bf7358fc6ab851b5938eef8f5f7118f1';
 const forecastURL ='http://api.openweathermap.org/data/2.5/forecast?id=5605242&units=imperial&appid=bf7358fc6ab851b5938eef8f5f7118f1';
-    /*let h = new Headers({
+    let h = new Headers({
         "Accept": "application/json",
         "User-Agent": "WDD-230 Test User Agent https://flig999.github.io",
         "Access-Control-Allow-Origin": "no-cors"
-    });*/
+    });
 
-    fetch(requestURL)
+    fetch(requestURL, headers{h})
     .then(function (response) {
         return response.json();
 
