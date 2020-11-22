@@ -20,8 +20,8 @@ window.addEventListener('load', (event) => {
 
 })
 
-const requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5605242&units=imperial&appid=bf7358fc6ab851b5938eef8f5f7118f1';
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5605242&units=imperial&appid=bf7358fc6ab851b5938eef8f5f7118f1';
+const requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=3282517940169cc2ec517af5aa5f93e2';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=3282517940169cc2ec517af5aa5f93e2';
 
 fetch(requestURL)
   .then(function (response) {
