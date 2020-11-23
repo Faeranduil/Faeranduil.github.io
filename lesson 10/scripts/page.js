@@ -32,19 +32,22 @@ fetch(requestURL)
     console.log(jsonObject);
     const stations = jsonObject;
     let rex = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let h3 = document.createElement('p');
-    let p2 = document.createElement('p');
+    let curr = document.createElement('h3');
+    let humid = document.createElement('h3');
+    let winds = document.createElement('h3');
+    let maxTemp = document.createElement('h3');
     let image = document.createElement('img');
 
-    h2.textContent = stations.weather[0].main;
-    h3.textContent = stations.name;
-    p2.textContent = Math.round(stations.main.temp_max) + '°';
+    curr.textContent = "Currently: " + stations.weather[0].main;
+    humid.textContent = "Humidity: " + stations.main.humidity;
+    winds.textContent = "Wind Speed: " + stations.wind.speed + "MPH";
+    maxTemp.textContent = "Temperature: " + Math.round(stations.main.temp_max) + '°';
 
-    rex.appendChild(h3);
-    rex.appendChild(h2);
+    rex.appendChild(curr);
+    rex.appendChild(maxTemp);
+    rex.appendChild(humid);
+    rex.appendChild(winds);
     rex.appendChild(image);
-    rex.appendChild(p2);
     
 
     image.setAttribute('src', 'https://openweathermap.org/img/w/' + stations.weather[0].icon + '.png'); 
