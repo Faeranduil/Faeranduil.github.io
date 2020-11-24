@@ -13,6 +13,7 @@ main {
 }
 .e1:hover,.e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover, .e7:hover, .e7:hover, .e8:hover, .e9:hover, .e10:hover{
     background-color: rgba(91, 212, 253, 0.705);
+    cursor:pointer;
   }
 
 h1 {
