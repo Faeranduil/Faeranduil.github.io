@@ -175,6 +175,44 @@ body {
         width: 100%;
         max-width: 200px;
     }
+    .townie section {
+        border: 2px solid orangered;
+        text-align:center;
+    }
+    .townie :first-child {
+        background-color: white;
+        color: blue;
+
+    }
+
+    .townie :nth-child(2) {
+        background-color: white;
+        color: blue;
+    }
+
+    .townie :nth-child(3) {
+        background-color: white;
+        color: blue;
+    }
+    .ssevents,
+    .prevents,
+    .fhevents {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 68, 0, 0.575);
+        max-width: 80%;
+        border: 2px black double;
+        padding: 4px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .ssevents h2,
+    .prevents h2,
+    .fhevents h2 {
+        text-align: center;
+    }
 }
 
 /* medium screen settings */
