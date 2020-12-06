@@ -1,0 +1,147 @@
+@media screen and (min-width: 200px) {
+    body#home {
+        background-image: url("../images/slcSmall.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: beige;
+
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #250101;
+        color: white;
+    }
+
+    .navigationBar {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigationBar li {
+        display: none;
+    }
+
+    .navigationBar li:first-child {
+        display: block;
+    }
+
+    .navigationBar li {
+        display: none;
+    }
+
+    .navigationBar a {
+        display: block;
+        padding: 0.75rem;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        justify-content: center;
+    }
+
+    .navigationBar a:hover {
+        background-color: white;
+        color: #250101;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    a.ham {
+        text-align: center;
+    }
+    a.res {
+        font-size:26pt;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    h3 {
+        font-style: italic;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        text-align:center;
+        display:inline-block;
+        color: #250101;
+        background-color:lightblue;
+        border-radius:15px 5px 15px 5px;
+    }
+
+    img.knock {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        opacity: .8;
+    }
+
+    .devo {
+        width: 50vw;
+
+        position: absolute;
+    }
+
+    img.suit {
+        width: 100%;
+        max-width: 50vw;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .test {
+        float: right;
+        position: relative;
+        left: 150px;
+        bottom: 125px;
+        padding: 5px 15px;
+        background-color: rgba(173, 216, 230, 0.623);
+        color: #250101;
+
+    }
+    p {
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:420px) {
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: #250101;
+        text-decoration: none;
+    }
+
+    .navigationBar a {
+        display: block;
+        padding: 0.75em;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .navigationBar {
+        display: flex;
+        padding: 0;
+    }
+
+    .navigationBar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigationBar a {
+        color: white;
+        text-align: center;
+    }
+
+    .navigationBar li:first-child {
+        display: none;
+    }
+}

@@ -1,9 +1,5 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-/*let h = new Headers({
-    "Accept": "application/json",
-    "User-Agent": "WDD-230 Test User Agent https://flig999.github.io",
-    "Access-Control-Allow-Origin": "no-cors"
-});*/
+
 
 fetch(requestURL)
     .then(function (response) {
