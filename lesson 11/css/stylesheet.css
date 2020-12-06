@@ -170,6 +170,11 @@ body {
         grid-column: 1/-1;
         text-align: center;
     }
+
+    .townie img {
+        width: 100%;
+        max-width: 200px;
+    }
 }
 
 /* medium screen settings */
@@ -228,6 +233,7 @@ body {
 
     .townie section {
         border: 2px solid orangered;
+        text-align:center;
     }
 
     .townie :first-child {

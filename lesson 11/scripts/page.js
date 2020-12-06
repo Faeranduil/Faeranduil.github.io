@@ -135,7 +135,7 @@ fetch(townURL)
         p3.textContent = "Population: " + towns[i].currentPopulation;
         p4.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
 
-        image.setAttribute('src', '../lesson 11/images/' + towns[i].photo);
+        image.setAttribute("src", "images/" + towns[i].photo);
         image.setAttribute('alt', towns[i].name + ".jpg");
 
         town.appendChild(h2);
@@ -146,8 +146,7 @@ fetch(townURL)
         town.appendChild(image);
        
 
-        image.setAttribute('src', towns[i].photo);
-        /*town.setAttribute(towns[i].photo.substring(0,this.src.length-4);*/
+        
 
 
         document.querySelector('.townie').appendChild(town);        
