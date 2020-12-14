@@ -70,7 +70,7 @@
         text-align:center;
         display:inline-block;
         color: #250101;
-        background-color:lightblue;
+        background-color:#77CBB9;
         border-radius:15px 5px 15px 5px;
     }
 
@@ -100,8 +100,8 @@
         left: 150px;
         bottom: 125px;
         padding: 5px 15px;
-        background-color: rgba(173, 216, 230, 0.623);
-        color: #250101;
+        background-color: #506c64ab;
+        color: #cdd3d5;
 
     }
     p {
@@ -110,6 +110,19 @@
 }
 
 @media screen and (min-width:420px) {
+    .logo {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr;
+    }
+    .knock {
+        grid-column:1/2;
+        grid-row:1/span 3;
+    }
+    .logo h3{
+        grid-column:2/3;
+        grid-row:2/3;
+    }
     nav {
         margin: 0 auto;
         max-width: 760px;
@@ -129,6 +142,8 @@
     .navigationBar {
         display: flex;
         padding: 0;
+        align-items:center;
+       
     }
 
     .navigationBar li {
@@ -139,6 +154,7 @@
     .navigationBar a {
         color: white;
         text-align: center;
+       
     }
 
     .navigationBar li:first-child {
