@@ -1,0 +1,199 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    background-image: url("../images/slcSmall.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: beige;
+
+}
+.top subject {
+    color:white;
+}
+fieldset {
+    background-color:rgba(218, 218, 218, 0.411);
+}
+
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+
+header {
+    padding: .5rem 2%;
+    color: #2563ff;
+    background-color: #55C1FF;
+    border-radius:15px 15px;
+}
+
+header,
+h1 {
+    margin: 0;
+    color: #2563ff;
+    background-color: #55C1FF;
+    text-align: center;
+    
+}
+
+header h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+
+
+.navigationBar {
+    list-style: none;
+    padding: 0;
+}
+
+.navigationBar li {
+    display: none;
+}
+
+.navigationBar li:first-child {
+    display: block;
+}
+
+.navigationBar a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    background-color:#250101;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.navigationBar a:hover {
+    background-color: white;
+    color: #250101;
+}
+
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #3010ff;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color:#3010ff;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+
+}
+
+form label.top input,
+form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: white;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (min-width:420px) {
+
+    body {
+        background-image: url("../images/slcMedium.jpeg");
+    }
+    .navigationBar a {
+        display: block;
+        padding: 0.75em;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+    }
+
+    .navigationBar {
+        display: flex;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .navigationBar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigationBar a {
+        color: white;
+        text-align: center;
+
+    }
+
+    .navigationBar li:first-child {
+        display: none;
+    }
+}

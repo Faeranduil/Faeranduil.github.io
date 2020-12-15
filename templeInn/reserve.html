@@ -7,14 +7,12 @@
     <meta name='author' content='John Doe'>
 <title>Make a Reservation</title>
 <meta name="viewport" content='width=device-width, initial-scale=1, maximum-scale=1'>
-<link href='css/inn.css' rel='stylesheet'>
+<link href='css/form.css' rel='stylesheet'>
 </head>
 
 <body>
    
-    <header>
-        <h1>Welcome to our Inn</h1>
-    </header>
+   
 
     <nav>
         <ul class="navigationBar">
@@ -28,8 +26,12 @@
     </nav>
 
     <main>
+        <header>
+            <h1>Welcome to our Inn</h1>
+       
         <h1>Please Fill Out Form Below</h1>
-        <form method='get' action='thanks.html'>
+    </header>
+        <form>
             <fieldset>
                 <legend>Customer Information</legend>
                 <label class='top'>First Name*<input type='text' name='fname' required></label>
@@ -64,19 +66,14 @@
                 <label class='top'>Temple Inn Location
                     <select name="subject">
                         <option value=''>Please Select &#9662;</option>
-                        <option value='software'>Software Development</option>
-                        <option value='creative'>Creative Professional</option>
-                        <option value='info'>Information Technology</option>
-                        <option value='data'>Data Professional</option>
-                        <option value='construction'>Construction</option>
-                        <option value='manufacturing'>Manufacturing</option>
-                        <option value='business'>Business Professional</option>
-                        <option value='security'>Cyber Security</option>
+                        <option value='software'>Houston Temple</option>
+                        <option value='creative'>Madrid Spain Temple</option>
+                        <option value='info'>Apia Samoa Temple</option>
+                        <option value='data'>Campinas Brazil Temple</option>
                     </select>
                 </label>
-                <label class='top'>How Many Authors <input type='number' name='authors'></label>
             </fieldset>
-            <input type='submit' value='Propose My Course' class='submitBtn'>
+            <input type='submit' value='Proceed to Payment' class='submitBtn'>
         </form>
     </main>
 </body>

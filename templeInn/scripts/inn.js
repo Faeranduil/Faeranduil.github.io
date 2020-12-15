@@ -13,3 +13,32 @@ window.addEventListener('load',(event)=>{
       const cry = document.querySelector('#copyrightyear');
       cry.textContent = new Date().getFullYear();
   });
+
+  const innjs = "https://github.com/Faeranduil/Faeranduil.github.io/blob/master/templeInn/scripts/inn.json";
+  fetch(innjs)
+  .then(function (response) {
+    return response.json();
+  })
+
+  .then(function (jsonObject) {
+    console.log(jsonObject);
+    const temples = jsonObject;
+    let tmp = document.createElement('section');
+    let tname = document.createElement('h3');
+    let taddress = document.createElement('h3');
+    let ttelephone = document.createElement('h3');
+    let tdedicate = document.createElement('h3');
+    
+
+    tname.textContent = "Currently: " + temples.name;
+    taddress.textContent = "Humidity: " + temples.address;
+    ttelephone.textContent = "Wind Speed: " + temples.telephone;
+    fhmaxTemp.textContent = "Temperature: " + temples.yearDedicated;
+
+    tmp.appendChild(tname);
+    tmp.appendChild(taddress);
+    tmp.appendChild(ttelephone);
+    tmp.appendChild(tdedicate);
+
+    document.querySelector('.templ').appendChild(tmp);
+  });
