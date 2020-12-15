@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang='eng'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='description' content='Fill Me In'>
+    <meta name='author' content='John Doe'>
+<title>Make a Reservation</title>
+<meta name="viewport" content='width=device-width, initial-scale=1, maximum-scale=1'>
+<link href='css/inn.css' rel='stylesheet'>
+</head>
+
+<body>
+   
+    <header>
+        <h1>Welcome to our Inn</h1>
+    </header>
+
+    <nav>
+        <ul class="navigationBar">
+            <li><a class="ham" href="#" onclick="menuClick()">&#9776; Menu</a></li>
+            <li><a href="tempInn.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="amenities.html">Amenities</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Please Fill Out Form Below</h1>
+        <form method='get' action='thanks.html'>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label class='top'>First Name*<input type='text' name='fname' required></label>
+                <label class='top'>Last Name*<input type='text' name='lname' required></label>
+                <label class='top'>Phone<input type='tel' name='phone' placeholeder="1235551234"></label>
+                <label class='top'>Email*<input type='email' name='email' placeholeder='someone@gmail.com'
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Room Information</legend>
+                <div>Occupants (over 5yrs. of age)</div>
+                <label class='sbs'>
+                    <input type='radio' name='occupant' value='one'>1-2</label>
+                <label class='sbs'>
+                    <input type='radio' name='occupant' value='three'>3-4</label>
+                <label class='sbs'>
+                    <input type='radio' name='occupant' value='five'>5+</label>
+                <div>Room Size</div>
+                <label class='sbs'>
+                    <input type='radio' name='size' value='single'>Single</label>
+                <label class='sbs'>
+                    <input type='radio' name='size' value='double'>Double</label>
+                <label class='sbs'>
+                    <input type='radio' name='size' value='queen'>Queen</label>
+                <label class='sbs'>
+                    <input type='radio' name='size' value='king'>King</label>
+            </fieldset>
+            <fieldset>
+                <legend>Check in/out</legend>
+                <label class='top'>Initial Date <input type='date' name='completeDate'></label>
+                <label class='top'>End Date <input type='date' name='completeDate'></label>
+                <label class='top'>Temple Inn Location
+                    <select name="subject">
+                        <option value=''>Please Select &#9662;</option>
+                        <option value='software'>Software Development</option>
+                        <option value='creative'>Creative Professional</option>
+                        <option value='info'>Information Technology</option>
+                        <option value='data'>Data Professional</option>
+                        <option value='construction'>Construction</option>
+                        <option value='manufacturing'>Manufacturing</option>
+                        <option value='business'>Business Professional</option>
+                        <option value='security'>Cyber Security</option>
+                    </select>
+                </label>
+                <label class='top'>How Many Authors <input type='number' name='authors'></label>
+            </fieldset>
+            <input type='submit' value='Propose My Course' class='submitBtn'>
+        </form>
+    </main>
+</body>
+
+</html>

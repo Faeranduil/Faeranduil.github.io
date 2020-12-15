@@ -1,11 +1,20 @@
 @media screen and (min-width: 200px) {
-    body#home {
+    body#home, #amen {
         background-image: url("../images/slcSmall.jpeg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-color: beige;
 
+    }
+    .amenities {
+        margin:0 auto;
+        text-align:center;
+    }
+    .bFast {
+        width:100%;
+        max-width:30vw;
+        
     }
 
     nav {
@@ -26,10 +35,6 @@
 
     .navigationBar li:first-child {
         display: block;
-    }
-
-    .navigationBar li {
-        display: none;
     }
 
     .navigationBar a {
@@ -54,24 +59,35 @@
     a.ham {
         text-align: center;
     }
+
     a.res {
-        font-size:26pt;
+        font-size: 26pt;
     }
 
     h1 {
         text-align: center;
         color: white;
     }
+    .amenities {
+        background-color: #55c1ff77;
+        color:#e9efff;
+        margin:0 auto;
+    }
 
     h3 {
         font-style: italic;
         margin-left: 50%;
         transform: translateX(-50%);
-        text-align:center;
-        display:inline-block;
-        color: #250101;
-        background-color:#77CBB9;
-        border-radius:15px 5px 15px 5px;
+        text-align: center;
+        display: inline-block;
+        color: #2563ff;
+        background-color: #55C1FF;
+        border-radius: 15px 5px 15px 5px;
+    }
+    .intro {
+        display:none;
+        background-color: #55C1FF;
+        color:#2563ff;
     }
 
     img.knock {
@@ -100,29 +116,76 @@
         left: 150px;
         bottom: 125px;
         padding: 5px 15px;
-        background-color: #506c64ab;
-        color: #cdd3d5;
+        background-color:  #eee8ffb0;
+        color:#3010ff;
 
     }
+
+    img.wsuit {
+        position:relative;
+        width: 100%;
+        max-width: 50vw;
+        border-radius: 5px 5px 5px 5px;
+        left:170px;
+        top:-100px;
+    }
+
+    .wtest {
+        float: left;
+        position: relative;
+        left: 50px;
+        bottom: 240px;
+        padding: 5px 15px;
+        background-color:  #eee8ffb0;
+        color:#3010ff;
+
+    }
+
     p {
-        text-align:center;
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 690px;
+        color: white;
+        text-align: center;
     }
 }
 
 @media screen and (min-width:420px) {
+    body#home, #amen{
+        background-image: url("../images/slcMedium.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: beige;
+
+    }
+    .amenities {
+        background-color: #55c1ffa9;
+        color:#1d367a;
+        margin:0 auto;
+    }
     .logo {
         display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows:1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:1fr 150px;
+        margin-left:70px;
+
     }
-    .knock {
-        grid-column:1/2;
-        grid-row:1/span 3;
+    h3 {
+        grid-column-start:2;
+        text-align:center;
+        align-self:center;
+        margin-left:80px;
     }
-    .logo h3{
-        grid-column:2/3;
-        grid-row:2/3;
+    img.knock {
+        width:60%;
+        float:right;
     }
+
+    
+
     nav {
         margin: 0 auto;
         max-width: 760px;
@@ -142,8 +205,8 @@
     .navigationBar {
         display: flex;
         padding: 0;
-        align-items:center;
-       
+        align-items: center;
+
     }
 
     .navigationBar li {
@@ -154,10 +217,89 @@
     .navigationBar a {
         color: white;
         text-align: center;
-       
+
     }
 
     .navigationBar li:first-child {
         display: none;
     }
+    img.suit {
+        width: 100%;
+        max-width: 50vw;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .test {
+        float: right;
+        position: relative;
+        left: 150px;
+        bottom: 125px;
+        padding: 5px 15px;
+       
+
+    }
+
+    img.wsuit {
+        position:relative;
+        width: 100%;
+        max-width: 40vw;
+        border-radius: 5px 5px 5px 5px;
+        left:280px;
+        top:-100px;
+    }
+
+    .wtest {
+        float: left;
+        position: relative;
+        left: 50px;
+        bottom: 240px;
+        padding: 5px 15px;
+        
+
+    }
+    footer {
+        margin-top:900px;
+        margin-bottom:20px;
+    }
+
+}
+@media screen and (min-width:700px) {
+    .intro {
+        display:block;
+    }
+    img.suit {
+        width: 100%;
+        max-width: 40vw;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .test {
+        float: right;
+        position: relative;
+        left: 150px;
+        bottom: 125px;
+        padding: 5px 15px;
+        
+
+    }
+
+    img.wsuit {
+        position:relative;
+        width: 100%;
+        max-width: 30vw;
+        border-radius: 5px 5px 5px 5px;
+        left:470px;
+        top:-100px;
+    }
+
+    .wtest {
+        float: left;
+        position: relative;
+        left: 50px;
+        bottom: 290px;
+        padding: 5px 15px;
+        
+
+    }
+
 }
